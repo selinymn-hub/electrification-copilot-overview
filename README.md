@@ -12,9 +12,9 @@ tribal knowledge is hard to find.
 ## Solution
 A guided assistant that:
 - Provides **checklists** and **next-best-actions** by context (project, subsystem, maturity)
-- Auto-generates **validation summaries** and links artifacts
-- Recommends **reusable models/assets** based on prior work
+- Recommends **reusable models/assets** based on prior work, including access information
 - Captures **feedback** and **metrics** to improve guidance
+- Auto-generates **validation summaries** and links artifacts
 
 ## Experience Flow (at a glance)
 ```mermaid
