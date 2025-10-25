@@ -1,7 +1,7 @@
 # Electrification Copilot (Overview)
 
 **What this is:** A product concept for an internal “copilot” that guides engineers through
-validation workflows, auto-documents steps, and surfaces reusable digital-twin assets, **without** any proprietary content.
+validation workflows, auto-documents steps, and surfaces reusable digital-twin assets, **without** any proprietary content. Generic concept for portfolio purposes only. Contains **no proprietary or confidential information from any employer**.
 
 ---
 
@@ -19,9 +19,11 @@ A guided assistant that:
 ## Experience Flow (at a glance)
 ```mermaid
 sequenceDiagram
-User->>Copilot: Select platform + task
-Copilot->>Copilot: Load playbook + past artifacts
-Copilot-->>User: Show steps + links (Next actions)
-User->>Copilot: Complete step / upload artifact
-Copilot->>Copilot: Generate summary + recommendations
-Copilot-->>User: One-click report + share links
+  participant U as User
+  participant C as Copilot
+  U->>C: Select platform + task
+  C->>C: Load playbook + past artifacts
+  C-->>U: Show steps + links (Next actions)
+  U->>C: Complete step / upload artifact
+  C->>C: Generate summary + recommendations
+  C-->>U: One-click report + share links
