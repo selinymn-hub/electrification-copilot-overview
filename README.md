@@ -9,6 +9,8 @@ validation workflows, auto-documents steps, and surfaces reusable digital-twin a
 Validation and documentation are time-consuming and inconsistent across teams. Onboarding is slow and
 tribal knowledge is hard to find.
 
+![Electrification Copilot concept diagram](copilot_flow.png)
+
 ## Solution
 A guided assistant that:
 - Provides **checklists** and **next-best-actions** by context (project, subsystem, maturity)
